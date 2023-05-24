@@ -1,0 +1,23 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/action_discover"
+        android:icon="@drawable/squares"
+        android:title="Discover" />
+
+    <item
+        android:id="@+id/action_notes"
+        android:icon="@drawable/email"
+        android:title="Notes" />
+
+    <item
+        android:id="@+id/action_matches"
+        android:icon="@drawable/speech"
+        android:title="Matches" />
+
+    <item
+        android:id="@+id/action_profile"
+        android:icon="@drawable/user"
+        android:title="Profile" />
+
+</menu>

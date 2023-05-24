@@ -1,0 +1,79 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/textMobileNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mobile Number"
+        android:textSize="16sp"
+        android:textColor="#000000"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"/>
+
+    <ImageView
+        android:id="@+id/imageEdit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/baseline_edit_24"
+       android:layout_toRightOf="@+id/textMobileNumber"
+        android:layout_alignTop="@id/textMobileNumber"
+        android:layout_marginStart="8dp"
+        android:clickable="true"
+        android:focusable="true"/>
+
+    <TextView
+        android:id="@+id/textEnterOTP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ENTER THE \nOTP"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:layout_below="@id/textMobileNumber"
+        android:layout_marginTop="16dp"/>
+
+    <EditText
+        android:id="@+id/editTextOTP"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edittext_background"
+        android:padding="8dp"
+        android:inputType="number"
+        android:textColor="#000000"
+        android:layout_below="@id/textEnterOTP"
+        android:layout_marginTop="8dp"/>
+
+    <Button
+        android:id="@+id/buttonContinue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Continue"
+        android:textSize="18sp"
+        android:textColor="#000000"
+        android:background="@drawable/button_background"
+        android:layout_below="@id/editTextOTP"
+        android:layout_marginTop="16dp"
+        style="@style/ButtonStyle"
+        android:padding="8dp"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:id="@+id/textCountdown"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Countdown"
+        android:textSize="14sp"
+        android:textColor="#000000"
+        android:layout_toRightOf="@id/buttonContinue"
+        android:layout_alignTop="@id/buttonContinue"
+        android:layout_alignBottom="@id/buttonContinue"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="8dp"/>
+
+
+
+</RelativeLayout>
